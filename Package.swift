@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftPasscodeLock",
+    name: "PasscodeLock",
     products: [
-        .library(name: "SwiftPasscodeLock", targets: ["SwiftPasscodeLock"])
+        .library(name: "PasscodeLock", targets: ["PasscodeLock"])
     ],
     targets: [
-        .target(name: "SwiftPasscodeLock", path: "SwiftPasscodeLock")
+        .target(name: "PasscodeLock", path: "PasscodeLock")
     ]
 )
